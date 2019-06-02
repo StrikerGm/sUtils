@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Maven: com.google.code.gson:gson:2.2.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Server-RankUP/plugins/PermissionsEx.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

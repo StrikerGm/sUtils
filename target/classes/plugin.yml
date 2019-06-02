@@ -1,0 +1,19 @@
+main: me.strikergm.main.Main
+version: 0.1
+author: StrikerGm
+name: sUtils
+commands:
+  cheque:
+  redeolimpia:
+    aliases:
+      - rd
+      - rede
+  alerta:
+    aliases:
+      - aviso
+      - alertar
+      - avisar
+  clearchat:
+    aliases:
+      - limparchat
+      - chatlimpar

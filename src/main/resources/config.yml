@@ -1,0 +1,37 @@
+
+#      Plugin Desenvolvido por StrikerGm
+#      Desenvolvido para uso privado entao nao divulgue!
+#      Caso o contrario o mesmo sera processado!
+
+#      Discord: Striker Delicious#1992
+
+Mensagens:
+  comando_incorreto: "&6[RedeOlimpia] &cComando incorreto!"
+  sem_perm: "&6[RedeOlimpia] &cVoce nao tem permissao para utilizar esse comando!"
+  rederoyale_principal:
+    - ""
+    - "&e      Sistema &6RedeOlimpia&e! "
+    - ""
+    - "  &e/redeolimpia reload &f(Para reiniciar o sistema) "
+    - "  &e/redeolimpia status &f(Para saber o status do plugin) "
+    - "  &e/redeolimpia autor &f(Para saber o autor do plugin) "
+    - ""
+  rederoyale_status:
+    - "&6[RedeOlimpia] §c(Sistema Offline)!"
+  rederoyale_autor:
+    - ""
+    - "&e      Sistema &6RedeOlimpia&e! "
+    - ""
+    - "  &eAutor: &7StrikerGm. "
+    - "  &eDiscord: &7Striker Delicious#1992. "
+    - ""
+  rederoyale_reload:
+    - "&6[RedeOlimpia] §a Plugin reiniciado com sucesso §c(Sistema Offline)!"
+  alerta_command:
+    - ""
+    - "&6     [RedeOlimpia]   "
+    - ""
+    - "       %mensagem%"
+    - ""
+    - "&eAtenciosamente equipe &6[RedeRoyale]"
+    - ""

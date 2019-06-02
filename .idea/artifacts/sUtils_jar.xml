@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sUtils:jar">
+    <output-path>$USER_HOME$/Desktop/Servidor-Teste/plugins</output-path>
+    <root id="archive" name="sUtils.jar">
+      <element id="module-output" name="sUtils" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/Servidor-Teste/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
