@@ -31,23 +31,24 @@ public class cmd implements CommandExecutor, Listener {
             Player target = Bukkit.getPlayerExact(args[0]);
             if (args.length == 2) {
                 if (args[1].equalsIgnoreCase("papel")) {
-                    ItemStack papel = new ItemBuilder(Material.PAPER).setDisplayName("§eCheque de §f$§a15.000 ").setLore("", " §e Ao clicar em qualquer lugar ", " §e com o cheque na mão", " §e ele e automaticamente depositado", " §e no seu saldo!", "", " §7 Faça um bom uso dele.").build();
-                    target.getInventory().addItem(papel);
-                    target.sendMessage(" O Jogador " + p.getName() + " te deu o bagui");
+                    giveCheque(target, "15.000")
                 } else if (args[1].equalsIgnoreCase("papel2")) {
-                    ItemStack papel = new ItemBuilder(Material.PAPER).setDisplayName("§eCheque de §f$§a25.000 ").setLore("", " §e Ao clicar em qualquer lugar ", " §e com o cheque na mão", " §e ele e automaticamente depositado", " §e no seu saldo!", "", " §7 Faça um bom uso dele.").build();
-                    target.getInventory().addItem(papel);
-                    target.sendMessage(" O Jogador " + p.getName() + " te deu o bagui");
+                    giveCheque(target, "25.000")
                 } else if (args[1].equalsIgnoreCase("papel3")) {
-                    ItemStack papel = new ItemBuilder(Material.PAPER).setDisplayName("§eCheque de §f$§a50.000 ").setLore("", " §e Ao clicar em qualquer lugar ", " §e com o cheque na mão", " §e ele e automaticamente depositado", " §e no seu saldo!", "", " §7 Faça um bom uso dele.").build();
-                    target.getInventory().addItem(papel);
-                    target.sendMessage(" O Jogador " + p.getName() + " te deu o bagui");
+                    giveCheque(target, "50.000")
                 } else {
                     p.sendMessage("qual papel seria?");
                 }
             }
         }
         return false;
+    }
+    
+    
+    public void giveCheque(Player player, String valor){
+          ItemStack papel = new ItemBuilder(Material.PAPER).setDisplayName("§eCheque de §f$§a" + valor).setLore("", " §e Ao clicar em qualquer lugar ", " §e com o cheque na mão", " §e ele e automaticamente depositado", " §e no seu saldo!", "", " §7 Faça um bom uso dele.").build();
+          target.getInventory().addItem(papel);
+          target.sendMessage(" O Jogador " + p.getName() + " te deu o bagui");
     }
 
     @EventHandler
